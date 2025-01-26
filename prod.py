@@ -12,8 +12,8 @@ from langchain.vectorstores import FAISS
 from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env (especially openai api key)
 
-st.title("RockyBot: News Research Tool 📈")
-st.sidebar.title("News Article URLs")
+st.title("ChatBot: EG Research Tool 📈")
+st.sidebar.title("PDF Files")
 
 pdfs = []
 for i in range(2):
